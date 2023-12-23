@@ -17,17 +17,20 @@ textarea, select {
 /* Components */
 
 .btn {
-    background-color: lightseagreen;
-    color: #fff;
+    background-color: transparent;
+    color: lightsalmon;
     padding: 0.5em 1em;
     cursor: pointer;
     border: 2px solid lightseagreen;
     border-radius: 5px;
+    font-weight: 700;
 }
 
 .btn:hover {
     transition: .5s;
-    opacity: .8;
+    opacity: .9;
+    color: lightseagreen;
+    border-color: lightsalmon;
 }
 
 /* General Styles */
