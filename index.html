@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Manipulation - Adding items to shopping cart</title>
+</head>
+<body>
+    <main class="main">
+        
+        <h1>Add items to shopping cart</h1>
+
+        <div class="shopping-cart">
+            <h2 class="shopping-cart-title">Shopping Cart</h2>
+            <form class="shopping-cart-form">
+                <div class="add">
+                    <label for="add-item"></label>
+                    <input type="text" placeholder="Add an item..." id="add-item">
+                    <button type="submit" class="btn">Add item</button>
+                </div><!-- end add -->
+                <div class="hide">
+                    <label for="hide-list">Hide shopping list</label>
+                    <input type="checkbox" name="hide-list" id="hide-list">
+                </div><!-- end hide -->
+            </form>
+            <ul class="shopping-cart-list">
+                
+            </ul>
+        </div><!-- end shopping-cart -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
