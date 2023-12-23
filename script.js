@@ -23,7 +23,7 @@ form.addEventListener("submit", (e) => {
     // Give the list element the text entered in the input
     li.textContent = text;
 
-    li.classList.add("list-color");
+    li.classList.add("list-element");
 });
 
 

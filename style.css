@@ -77,12 +77,17 @@ body {
     gap: .5rem;
 }
 
+.shopping-cart-list {
+    line-height: 1.5;
+}
+
 .hidden {
     display: none;
 }
 
-.list-color {
+.list-element {
     color: lightseagreen;
+    font-weight: 700;
 }
 
 
